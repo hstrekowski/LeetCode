@@ -1,0 +1,42 @@
+## --- Środowisko .NET (Kompilacja i artefakty) ---
+# Foldery z plikami binarnymi i tymczasowymi (najważniejsze!)
+[Bb]in/
+[Oo]bj/
+
+# Pliki publikacji
+publish/
+[Rr]elease/
+
+## --- IDE (Visual Studio / VS Code / Rider) ---
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+# Wykomentuj poniższą linię, jeśli CHCESZ współdzielić konfigurację debugowania/zadań w VS Code
+# !.vscode/settings.json
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+## --- Pakiety i zależności ---
+# Pakiety NuGet
+*.nupkg
+# Folder packages może istnieć w starszych wersjach .NET lub przy specyficznej konfiguracji
+**/packages/*
+!**/packages/build/
+
+# Logi przywracania pakietów
+project.lock.json
+project.assets.json
+
+## --- Systemowe ---
+.DS_Store
+Thumbs.db
+
+## --- Testy ---
+TestResults/
