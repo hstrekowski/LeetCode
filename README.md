@@ -1,9 +1,9 @@
 # LeetCode
 
-Rozwiązania zadań algorytmicznych z platformy LeetCode zaimplementowane w **C#**.
+Algorithmic problem solutions from LeetCode implemented in **C#** and **TypeScript**.
 
-### 📚 Lista zadań
+### 📚 Problem List
 
-|  #  | Zadanie                                           | Trudność |                Kod                |
-| :-: | :------------------------------------------------ | :------: | :-------------------------------: |
-|  1  | [Two Sum](https://leetcode.com/problems/two-sum/) |    🟢    | [Program.cs](./TwoSum/Program.cs) |
+|  #  | Problem | Difficulty | Code |
+| :-: | :--- | :---: | :---: |
+|  1  | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 | [Program.cs](./TwoSum/Program.cs) |
