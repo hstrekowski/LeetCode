@@ -10,3 +10,4 @@ Algorithmic problem solutions from LeetCode implemented in **C#** and **TypeScri
 | 69  | [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)                                     |     🟢     |         [Program.cs](./Sqrt/Program.cs)          |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/) |     🟢     | [Program.cs](./ExcelSheetColumnTable/Program.cs) |
 | 13  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)                 |     🟢     |    [Program.cs](./RomanToInteger/Program.cs)     |
+| 14  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)       |     🟢     |  [Program.cs](./LongestCommonPrefix/Program.cs)  |
