@@ -11,3 +11,5 @@ Algorithmic problem solutions from LeetCode implemented in **C#** and **TypeScri
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/) |     🟢     | [Program.cs](./ExcelSheetColumnTable/Program.cs) |
 | 13  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)                 |     🟢     |    [Program.cs](./RomanToInteger/Program.cs)     |
 | 14  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)       |     🟢     |  [Program.cs](./LongestCommonPrefix/Program.cs)  |
+| 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)               |     🟢     |   [Program.cs](./ValidParentheses/Program.cs)    |
+| 66  | [Plus One](https://leetcode.com/problems/plus-one/description/)                                 |     🟢     |        [Program.cs](./PlusOne/Program.cs)        |
