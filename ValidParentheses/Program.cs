@@ -4,6 +4,8 @@ class Program
 {
     public static bool IsValid(string s)
     {
+        if (s.Length % 2 == 1) return false;
+
         Dictionary<char, int> counters = new Dictionary<char, int>()
         {
             {'(', 0},
@@ -43,6 +45,7 @@ class Program
             else if (s[i] == '}' && s[i] == closing[closing.Count - 1])
             {
                 counters['{']--;
+                closing.RemoveAt(closing.Count - 1);
 
             }
             else
