@@ -2,7 +2,7 @@
 
 class Program
 {
-    public bool IsValid(string s)
+    public static bool IsValid(string s)
     {
         Dictionary<char, int> counters = new Dictionary<char, int>()
         {
@@ -11,45 +11,50 @@ class Program
             {'{', 0},
         };
 
-        char nextClose = string.Empty;
+        List<char> closing = new List<char>() { '.'};
 
         for (int i = 0; i < s.Length; i++)
         {
-            if (s[i] == "(")
+            if (s[i] == '(')
             {
-                nextClose = ')';
-                counters["("]++;
+                closing.Add(')');
+                counters['(']++;
             }
-            else if (s[i] == "[")
+            else if (s[i] == '[')
             {
-                nextClose = ']';
-                counters["["]++;
+                closing.Add(']');
+                counters['[']++;
             }
-            else if (s[i] == "{")
+            else if (s[i] == '{')
             {
-                nextClose = '}';
-                counters["{"]++;
+                closing.Add('}');
+                counters['{']++;
             }
-            else if (s[i] == ")" && s[i] == nextClose)
+            else if (s[i] == ')' && s[i] == closing[closing.Count - 1])
             {
-                counters["("]--;
+                counters['(']--;
+                closing.RemoveAt(closing.Count - 1);
             }
-            else if (s[i] == "]" && s[i] == nextClose)
+            else if (s[i] == ']' && s[i] == closing[closing.Count - 1])
             {
-                counters["["]--;
+                counters['[']--;
+                closing.RemoveAt(closing.Count - 1);
             }
-            else if (s[i] == "}" && s[i] == nextClose)
+            else if (s[i] == '}' && s[i] == closing[closing.Count - 1])
             {
-                counters["{"]--;
+                counters['{']--;
+
             }
             else
             {
                 return false;
             }
         }
+
+        return counters.All(c => c.Value == 0);
     }
     static void Main(string[] args)
     {
-
+        System.Console.WriteLine(IsValid("()"));
     }
 }
