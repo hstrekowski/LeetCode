@@ -16,7 +16,7 @@ class Program
             if (actualPrefix.Length > strs[i].Length) actualPrefix = new StringBuilder(actualPrefix.ToString().Substring(0, strs[i].Length));
 
             for (int j = 0; j < actualPrefix.Length; j++)
-            { 
+            {
                 if (strs[i][j] != actualPrefix[j])
                 {
                     actualPrefix = new StringBuilder(actualPrefix.ToString().Substring(0, j));
