@@ -16,3 +16,4 @@ Algorithmic problem solutions from LeetCode implemented in **C#** and **TypeScri
 | 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)                         |     🟢     |      [Program.cs](./MergeTwoSortedLists/Program.cs)       |
 | 83  | [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) |     🟢     | [Program.cs](./RemoveDuplicatesFromSortedList/Program.cs) |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)               |     🟢     |    [Program.cs](./RemoveLinkedListElements/Program.cs)    |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                               |     🟢     |       [Program.cs](./ReverseLinkedList/Program.cs)        |
