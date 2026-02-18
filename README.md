@@ -18,3 +18,4 @@ Algorithmic problem solutions from LeetCode implemented in **C#** and **TypeScri
 | 203  | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)                      |     🟢     |        [Program.cs](./RemoveLinkedListElements/Program.cs)        |
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                                      |     🟢     |           [Program.cs](./ReverseLinkedList/Program.cs)            |
 | 1290 | [Bin Linked List to Decimal](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/) |     🟢     | [Program.cs](./ConvertBinNumberInALinkedListToInteger/Program.cs) |
+| 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)                          |     🟢     |         [Program.cs](./MiddleOfTheLinkedList/Program.cs)          |
