@@ -19,4 +19,5 @@ Algorithmic problem solutions from LeetCode implemented in **C#** and **TypeScri
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)                                      |     🟢     |           [Program.cs](./ReverseLinkedList/Program.cs)            |
 | 1290 | [Bin Linked List to Decimal](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/) |     🟢     | [Program.cs](./ConvertBinNumberInALinkedListToInteger/Program.cs) |
 | 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)                          |     🟢     |         [Program.cs](./MiddleOfTheLinkedList/Program.cs)          |
-| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | 🟢 | [Program.cs](./LinkedListCycle/Program.cs) |
+| 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)                                          |     🟢     |            [Program.cs](./LinkedListCycle/Program.cs)             |
+| 160  | [Intersection Of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)            |     🟢     |      [Program.cs](./IntersectionOfTwoLinkedLists/Program.cs)      |
