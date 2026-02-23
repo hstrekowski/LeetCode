@@ -16,21 +16,22 @@ class Program
     public static ListNode GetIntersectionNode(ListNode headA, ListNode headB)
     {
         ListNode dummy1 = headA;
-        ListNode dummy2 = headB;
+
+        HashSet<ListNode> set = new HashSet<ListNode>();
 
         while (dummy1 != null)
         {
-            while (dummy2 != null)
-            {
-                if (dummy2 == dummy1)
-                {
-                    return dummy2;
-                }
-                dummy2 = dummy2.next;
-            }
-
-            dummy2 = headB;
+            set.Add(dummy1);
             dummy1 = dummy1.next;
+        }
+
+        ListNode dummy2 = headB;
+
+        while (dummy2 != null)
+        {
+            if (set.Contains(dummy2)) return dummy2;
+
+            dummy2 = dummy2.next;
         }
 
         return null;
